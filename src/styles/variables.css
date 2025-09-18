@@ -1,0 +1,14 @@
+:root{
+    --cor-primaria: #f49bab;
+    --cor-secundaria: #7a85c1;
+    --cor-fundo: #ffe1e0;
+    --cor-texto: #555;
+    --cor-rodape: #333;
+    --cor-texto-rodape: #f4f4f4;
+    --fonte-texto: 'Poppins', sans-serif;
+    --fonte-titulo: 'Great Vibes', cursive;
+    --tamanho-fonte-titulo: 80px;
+    --tamanho-fonte-lista: 24px;
+    --tamanho-fonte-texto: 18px;
+
+}

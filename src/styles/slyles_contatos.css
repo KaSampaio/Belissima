@@ -1,0 +1,30 @@
+:root{
+    --cor-primaria: #FFCFCF;
+    --cor-secundaria: #898AC4;
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #555;
+    --cor-rodape: #333;
+    --cor-texto-rodape: #f4f4f4;
+    --fonte-texto: 'Poppins', sans-serif;
+    --fonte-titulo: 'Great Vibes', cursive;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+}
+
+header {
+    background: var(--cor-primaria);
+    padding: 10px 0;
+    text-align: center;
+}
+
+p {
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--cor-texto);
+}
