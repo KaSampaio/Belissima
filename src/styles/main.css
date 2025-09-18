@@ -26,5 +26,5 @@ footer {
 footer p {
     margin: 0;
     font-family: var(--fonte-texto);
-    font-size: var(--tamanho-fonte-texto);
+    font-size: 14px;
 }
