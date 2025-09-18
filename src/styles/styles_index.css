@@ -76,22 +76,3 @@
     margin: 20px 0;
 }
 
-.rodape  {
-    background: var(--cor-rodape);
-    color: var(--cor-texto-rodape);
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-top: 0;
-    z-index: 100;
-}
-
-.rodape p {
-    margin: 0;
-    font-family: var(--fonte-texto);
-    color: var(--cor-texto-rodape);
-    font-size: 16px;
-}
