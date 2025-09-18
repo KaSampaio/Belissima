@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: #FFF9BF;
+    background: #FFCFCF;
     padding: 10px 0;
     text-align: center;
 }
@@ -23,7 +23,7 @@ p {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #CB9DF0;
+    color: #898AC4;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav a {
 
 li a {
     font-family: 'delius', cursive;
-    color: #CB9DF0;
+    color: #898AC4;
     text-decoration: none;}
 
 .apresentacao_valores ul {
