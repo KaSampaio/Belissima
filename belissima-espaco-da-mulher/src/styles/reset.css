@@ -1,0 +1,51 @@
+/* reset.css */
+
+/* Remove margens, paddings e bordas padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove formatações de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove formatação padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Normaliza imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Define fonte base */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Remove formatações de inputs e botões */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Melhorar renderização de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

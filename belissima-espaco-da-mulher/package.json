@@ -1,0 +1,22 @@
+{
+  "name": "belissima-espaco-da-mulher",
+  "version": "1.0.0",
+  "description": "Projeto para o Belissima - Espaço da Mulher, um espaço dedicado ao bem-estar e cuidados da mulher.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "mulher",
+    "bem-estar",
+    "serviços",
+    "beleza"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
