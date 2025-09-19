@@ -1,30 +1,35 @@
-:root{
-    --cor-primaria: #FFCFCF;
-    --cor-secundaria: #898AC4;
-    --cor-fundo: #f4f4f4;
-    --cor-texto: #555;
-    --cor-rodape: #333;
-    --cor-texto-rodape: #f4f4f4;
-    --fonte-texto: 'Poppins', sans-serif;
-    --fonte-titulo: 'Great Vibes', cursive;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: var(--cor-fundo);
+    flex-direction: column; /* Garante alinhamento vertical dos textos */
 }
 
-header {
-    background: var(--cor-primaria);
-    padding: 10px 0;
+.contatos_info {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-fonte-texto);
+    color: var(--cor-texto);
+    margin-bottom: 10px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
+.contatos_info_title {
+    font-size: 36px;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+}
 
-p {
-    font-family: var(--fonte-texto);
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--cor-texto);
+footer {
+    background: var(--cor-rodape);
+    color: var(--cor-texto-rodape);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 41px;
 }

@@ -17,14 +17,40 @@ footer {
     color: var(--cor-texto-rodape);
     text-align: center;
     padding: 10px 0;
-    position: relative;
-    bottom: 0;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 footer p {
     margin: 0;
     font-family: var(--fonte-texto);
     font-size: 14px;
+}
+
+.cabecalho {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cabecalho_tittle {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-fonte-titulo);
+    color: var(--cor-secundaria);
+    margin: 0;
+}
+
+.cabecalho_menu ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cabecalho_menu li {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-fonte-lista);
+    color: var(--cor-secundaria);
 }

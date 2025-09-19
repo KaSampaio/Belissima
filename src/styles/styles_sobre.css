@@ -6,9 +6,11 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: var(--cor-fundo);
+    flex-direction: column; /* Garante alinhamento vertical dos textos */
 }
 
-.localizacao {
+.apresentacao {
     font-family: var(--fonte-texto);
     font-size: var(--tamanho-fonte-texto);
     color: var(--cor-texto);
@@ -20,13 +22,14 @@ main {
     text-align: center;
 }
 
-.localizacao_info_title {
+.apresentacao_sobre_title {
     font-size: 36px;
     color: var(--cor-secundaria);
     margin-bottom: 20px;
 }
 
-.localizacao_maps {
-    font-size: 36px;
-    color: var(--cor-secundaria);
-}
+
+section {
+   margin-bottom: -40px;
+   margin-top: -0px; /* Diminui a distância entre sections */
+} 
