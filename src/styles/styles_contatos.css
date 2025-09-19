@@ -24,12 +24,3 @@ main {
     color: var(--cor-secundaria);
     margin-bottom: 20px;
 }
-
-footer {
-    background: var(--cor-rodape);
-    color: var(--cor-texto-rodape);
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    margin-top: 411px;
-}
