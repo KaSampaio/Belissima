@@ -27,9 +27,3 @@ main {
     color: var(--cor-secundaria);
     margin-bottom: 20px;
 }
-
-
-section {
-   margin-bottom: -40px;
-   margin-top: -0px; /* Diminui a distância entre sections */
-} 

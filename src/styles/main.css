@@ -12,21 +12,69 @@ header {
     text-align: center;
 }
 
+/* Faz o body ocupar a tela toda e usar flexbox */
+body {
+    min-height: 100vh;          /* ocupa no mínimo 100% da altura da tela */
+    display: flex;
+    flex-direction: column;     /* organiza os elementos em coluna */
+}
+
+/* O main cresce e empurra o footer para baixo */
+main {
+    flex: 1;                    /* ocupa o espaço disponível */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-fundo);
+    flex-direction: column;     /* Garante alinhamento vertical dos textos */
+}
+
+/* Footer fixado ao final */
 footer {
     background: var(--cor-rodape);
     color: var(--cor-texto-rodape);
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: 40px;
+    margin-top: auto;           /* empurra o footer para o final */
 }
+
 
 footer p {
     margin: 0;
     font-family: var(--fonte-texto);
     font-size: 14px;
 }
+/* Faz o body ocupar a tela toda e usar flexbox */
+body {
+    min-height: 100vh;          /* ocupa no mínimo 100% da altura da tela */
+    display: flex;
+    flex-direction: column;     /* organiza os elementos em coluna */
+}
 
+/* O main cresce e empurra o footer para baixo */
+main {
+    flex: 1;                    /* ocupa o espaço disponível */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-fundo);
+    flex-direction: column;     /* Garante alinhamento vertical dos textos */
+}
+
+/* Footer fixado ao final */
+footer {
+    background: var(--cor-rodape);
+    color: var(--cor-texto-rodape);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;           /* empurra o footer para o final */
+}
 .cabecalho {
     padding: 20px;
     text-align: center;
